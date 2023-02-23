@@ -64,9 +64,14 @@ margin-left:auto;
 /*COVER*/
 
 .container {
+
         margin-top: 30px;
-        padding:10px;
+        padding:100px;
+        height: 15vh;
+        text-align: center;
+        text-justify: center;
 }
+
 .container-wrapper {
     margin-top: 30px;
         padding:10px;
