@@ -64,23 +64,21 @@ margin-left:auto;
 /*COVER*/
 
 .container {
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    width:100%;
-    height:50vh;
-    margin-bottom: 0px;
+        margin-top: 30px;
+        padding:10px;
 }
 .container-wrapper {
-        margin-top: 30px;
+    margin-top: 30px;
+        padding:10px;
 
-    display:grid;
-    grid-template-columns: 1fr;
-    padding:0px;
-     width:100%;
-    height:50vh;
-    margin-bottom: 0px;
 }
+   
+
+@media only screen and (max-width: 650px) {
+    .container-wrapper{
+margin-top: 200px;    }
+}
+
 
 .container-item {
     margin-top:10px;
